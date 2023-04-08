@@ -39,7 +39,7 @@ fun main() {
     println("")
     println(one())
     fistbug(100)
-    print(sumNegativeBetter(5, -6))
+    println(sumNegativeBetter(5, -6))
     // kotlin is not like other languages when it comes to arrays
     var arr: Array<Int> = Array(5) { i -> i }
     arr.forEach {println(it)}
